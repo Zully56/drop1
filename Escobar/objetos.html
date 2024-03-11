@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="objetos.js"></script>
+    <style>
+        table, td, th{
+            border:1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Orientaçao a objeto</h1>
+    <label for="nome">Nome</label>
+    <input type="text" id="nome"> <br>
+    <label for="sobrenome">Sobrenome</label>
+    <input type="text" id="sobrenome"><br>
+    <label for="idade">Idade</label>
+    <input type="text" id="idade"><br>
+    <label for="altura">Altura</label>
+    <input type="text" id="altura"><br>
+    <br>
+    <button id="cadastrar" onclick="cadastrarUsuario()">Cadastrar</button><br>
+    <br>
+    <h3 id="informacoes"></h3> 
+
+    <hr>
+
+    <h1> Matriz de objetos</h1>
+    <label for="nome2">Nome</label>
+    <input type="text" id="nome2"> <br>
+    <label for="sobrenome2">Sobrenome</label>
+    <input type="text" id="sobrenome2"><br>
+    <label for="idade2">Idade</label>
+    <input type="text" id="idade2"><br>
+    <label for="altura2">Altura</label>
+    <input type="text" id="altura2"><br>
+    <br>
+    <button id="cadastrar" onclick="cadastrarListaUsuario()"> Adicionar Usuario </button><br>
+    <br>
+    <h3 id="informacoes2"></h3>
+
+    <table id="tabelaUsuarios">
+        <tr>
+            <th> Nome </th>
+            <th> Sobrenome </th>
+            <th> Idade </th>
+            <th> Altura </th>
+        </tr>
+        <tr>
+            <th> Zully Dayana</th>
+            <th> Vargas Escobar </th>
+            <th> 18 </th>
+            <th> 1,55 </th>
+            
+        </tr>
+    </table>
+    <h1 id="teste"></h1>
+
+    <hr>
+    
+    <h1> Leitura arquivo json</h1>
+
+    <table id="tabelaUsuarios2">
+        <tr>
+            <th> Nome </th>
+            <th> Sobrenome </th>
+            <th> Idade </th>
+            <th> Altura </th>
+        </tr>
+    </table>
+   
+    <script src="usuarios.js"></script>
+
+    <hr> 
+
+    <h1> Marcas </h1>
+
+</body>
+</html>
